@@ -1,0 +1,28 @@
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+/*  */
+/* @layer components { */
+/* .my-input { */
+/* padding: 16px; */
+/* } */
+/* } */
+html,
+body {
+  font-family: "Roboto Mono", monospace;
+  padding: 0;
+  margin: 0;
+}
+
+.my-input {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  outline-style: none;
+  width: 172px;
+}
+
+input[type="text"] {
+  letter-spacing: 0.125em;
+  -webkit-text-security: circle;
+}

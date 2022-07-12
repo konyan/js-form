@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML TEMPLATE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./config.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="w-screen h-screen bg-blue-500 flex items-center justify-center">
+    <section
+      class="w-[400px] h-auto rounded bg-white drop-shadow-md px-4 py-12"
+    >
+      <h1 class="font-bold text-2xl flex justify-start">Sign Up Form</h1>
+      <p class="font-regular text-xs mt-2 mb-4 text-gray-500">
+        Please fill in the form to create account
+      </p>
+      <hr />
+      <form action="">
+        <div class="flex justify-between mt-4">
+          <input
+            type="text"
+            value=""
+            placeholder="First Name"
+            class="my-input"
+          />
+          <input
+            type="text"
+            value=""
+            placeholder="Last Name"
+            class="my-input"
+          />
+        </div>
+        <div class="mt-4">
+          <input
+            type="email"
+            value=""
+            placeholder="enter your email"
+            class="my-input w-full"
+          />
+        </div>
+        <div class="mt-4">
+          <input
+            type="text"
+            name="password"
+            id="password"
+            class="my-input w-full"
+            placeholder="enter password"
+          />
+        </div>
+        <div class="mt-4">
+          <input
+            type="text"
+            name="confirmpassword"
+            id="confirmpassword"
+            class="my-input w-full"
+            placeholder="confirm password"
+          />
+        </div>
+
+        <div class="mt-4">
+          <input type="checkbox" name="term" id="term" />
+          <label for="term" class="text-sm text-gray-500"
+            >I accept
+            <strong class="text-blue-500">
+              the Terms of Use and Privacy Policy
+            </strong></label
+          >
+        </div>
+        <button
+          type="submit"
+          class="mt-6 px-6 py-3 bg-blue-500 text-white rounded"
+        >
+          Sign Up
+        </button>
+      </form>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
