@@ -22,7 +22,7 @@ body {
   width: 172px;
 }
 
-input[type="text"] {
-  letter-spacing: 0.125em;
-  -webkit-text-security: circle;
-}
+/* input[type="text"] { */
+/* letter-spacing: 0.125em; */
+/* -webkit-text-security: circle; */
+/* } */

@@ -24,25 +24,29 @@
         Please fill in the form to create account
       </p>
       <hr />
-      <form action="">
+      <form action="#" name="signup" id="signup" method="post">
         <div class="flex justify-between mt-4">
           <input
             type="text"
-            value=""
+            value="hello"
             placeholder="First Name"
             class="my-input"
+            required
+            id="firstname"
           />
           <input
             type="text"
             value=""
             placeholder="Last Name"
             class="my-input"
+            required
+            id="lastname"
           />
         </div>
-        <div class="mt-4">
+        <div class="mt-4 flex flex-col">
           <input
-            type="email"
             value=""
+            id="email"
             placeholder="enter your email"
             class="my-input w-full"
           />
@@ -76,11 +80,18 @@
           >
         </div>
         <button
+          id="signupButton"
           type="submit"
           class="mt-6 px-6 py-3 bg-blue-500 text-white rounded"
+          disabled
         >
           Sign Up
         </button>
+        <button type="reset">RESET</button>
+
+        <select name="select" id="select">
+          <option value="h1">hello world</option>
+        </select>
       </form>
     </section>
     <script src="./index.js"></script>
